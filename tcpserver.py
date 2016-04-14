@@ -18,7 +18,8 @@ print "[*] Listening on %s:%d" % (bind_ip,bing_port)
 
 def handle_client(client_socket):
 
-	# print out what the client send
+	# print out what the client sends
+
 	requests = clien_socket.recv(1024)
 
 	print "[*] Received: %s" % request
