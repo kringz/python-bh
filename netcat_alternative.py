@@ -220,7 +220,7 @@ if command:
 			# now we receive until we see a linefeed
 			(enter key)
 		
-		cmd_duffer = ""
+		cmd_buffer = ""
 		while "\n" not in cmd_buffer:
 			cmd_buffer += client_socket.recv(1024)
 		
